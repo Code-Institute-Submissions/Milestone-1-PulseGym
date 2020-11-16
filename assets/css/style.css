@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.callout-container {
+    height: 90vh;
+    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color:transparent;
+}
+
+.jumbotron-header {
+    color: #d825ad;
+    /*color: #d85025;*/
+    /*color: #d82554;*/
+    /*color: #d8aa25;*/
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.jumbotron-lead {
+    color: #00ffe7;
+    font-size: 1.2rem;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.block-divider {
+    width: 150px;
+    height: 6px;
+    border: 0;
+    background-color: #b2ccc1;
+}
+
+/*Buttons*/
+
+.btn-call {
+    font-weight: bold;
+    border-radius: 15px;
+    width: 140px;
+    color: white;
+    background-color: #d825ad;
+    /*background-color: #d85025;*/
+    /*background-color: #d82554;*/
+    /*background-color: #d8aa25;*/
+    border-color: rgb(0, 0, 0);
+}
+
+.btn-call:hover,
+.btn-call:active,
+.btn-call:focus,
+.btn-call:active:focus {
+        background-color: #a90673;
+    border-color: #000000;
+    color: white;
+}
+
+.about-container {}
+
+.classes-container {}
+
+.signup-container {}
+
+.testimonials-container {}

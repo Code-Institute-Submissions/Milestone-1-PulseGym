@@ -76,10 +76,66 @@
 				</div>
 			</div>
 			<!--================================================ Mobile =====================================================-->
+			<div class="accordion" id="mobileaccordian">
+				<div class="card card-mobile d-block d-md-none" style="width: 80%;">
+					<img src="assets/images/zumba.jpg" class="card-img-top" alt="Cardio Classes">
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Zumba
+                            </button>
+						</h2>
+					</div>
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+						data-parent="#mobileaccordian">
+						<div class="card-body">
+							Zumba is a combination of salsa dancing and aerobics which gives you a full
+                            body work out. Our Zumba class involves fast and slow dancing working the whole body for a great
+                            all-round work out.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Step
+                            </button>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#mobileaccordian">
+						<div class="card-body">
+							Step is a rhythm based class on a short raised platform that you step
+							up and down on in different patterns. Our step classes are a really fun way to get you
+							moving and to improve your cardio fitness.
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Spinning
+                            </button>
+						</h2>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+						data-parent="#mobileaccordian">
+						<div class="card-body">
+							Spinning is a stationary cycle class that combines relies fast-paced
+							cycling and slower paced rest intervals allowing you time to recover for the next speed
+							burst.
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
 			<div class="card-mobile d-block d-md-none" style="width: 18rem;">
 				<img src="assets/images/zumba.jpg" class="card-img-top" alt="Zumba Class">
 				<div class="card-body">
-					<h5 class="card-title">Cardio</h5>
+					<h5 class="card-title"><i class="fas fa-heartbeat"></i>Cardio</h5>
 					<p class="card-text">Zumba is a combination of salsa dancing and aerobics which gives you a full
 						body work out. Our Zumba class involves fast and slow dancing working the whole body for a great
 						all-round work out.</p>
@@ -274,16 +330,32 @@
 		</div>
 		<!--================================================ Membership End =============================================-->
 		<!--================================================ Sign Up ====================================================-->
-		<div class="container signup-container">
-			<div class="row">
-				<div class="col-12 my-5">
-					<section class="sign-up">
-						<h2 class="text-uppercase">Sign up</h2>
-						<p>sign up form here</p>
-					</section>
-				</div>
-			</div>
-		</div>
+		<form class="contact-form mt-5">
+			<div class="form-group py-1">
+				<input type="text" class="form-control form-input" id="f-name" name="f-name" placeholder="First Name" required="">
+            </div>
+				<div class="form-group py-1">
+					<input type="text" class="form-control form-input" id="l-name" name="l-name" placeholder="Last Name" required="">
+            </div>
+					<div class="form-group py-1">
+						<input type="email" class="form-control form-input" id="email" name="email" placeholder="Email" required="">
+            </div>
+						<div class="form-check mt-3 mb-1">
+							<input class="form-check-input" type="radio" name="formradio" id="monthlyMembership" value="monthly" checked="">
+							<label class="form-check-label" for="monthlyMembership">Monthly Membership</label>
+						</div>
+						<div class="form-check mt-3 mb-1">
+							<input class="form-check-input" type="radio" name="formradio" id="yearlyMembership" value="yearly">
+							<label class="form-check-label" for="monthlyMembership">Yearly Membership</label>
+						</div>
+						<div class="form-check mt-3 mb-4">
+							<input class="form-check-input" type="radio" name="formradio" id="questions" value="questions">
+							<label class="form-check-label" for="yearlyMembership">Just a query</label>
+						</div>
+						<label for="message">Any Questions?</label>
+						<textarea id="message" name="message" rows="5" class="form-control form-text-area" placeholder="Message"></textarea>
+						<button type="submit" class="btn btn-block btn-primary my-5 p-2">SEND</button>
+		</form>
 		<!--================================================ Sign Up End ================================================-->
 		<!--================================================ Testimonials ===============================================-->
 		<div class="container testimonials-container">
@@ -306,13 +378,13 @@
 								<div class="carousel-item active">
 									<div class="row align-items-center">
 										<div class="col-md py-2">
-											<img src="assets/images/DummyImageQuote.png" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
-                                        </div>
+											<img src="assets/images/queen-edit.jpg" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
+                                            </div>
 											<div class="col-md py-2">
 												<blockquote class="blockquote">
-													<p>The Staff are knowledgeable and friendly. They approach fitness
-														on a level I haven’t experienced at other gyms.</p>
-													<p>- Kim K</p>
+													<p>The trainers are awesome! I would highly recommend PulseGym
+														for anyone of any fitness level.</p>
+													<p>- Liz HRH</p>
 												</blockquote>
 											</div>
 										</div>
@@ -320,13 +392,14 @@
 									<div class="carousel-item">
 										<div class="row align-items-center">
 											<div class="col-md py-2">
-												<img src="assets/images/DummyImageQuote.png" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
-                                        </div>
+												<img src="assets/images/hughjars.jpg" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
+                                                </div>
 												<div class="col-md py-2">
 													<blockquote class="blockquote">
-														<p>The trainers are awesome! I would highly recommend PulseGym
-															for anyone of any fitness level.</p>
-														<p>- Liz HRH</p>
+														<p>The trainers are great to work with. Workouts are always
+															changing and challenge each person in class to work to
+															the best of their ability</p>
+														<p>- Hugh Jars</p>
 													</blockquote>
 												</div>
 											</div>
@@ -334,14 +407,15 @@
 										<div class="carousel-item">
 											<div class="row align-items-center">
 												<div class="col-md py-2">
-													<img src="assets/images/DummyImageQuote.png" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
-                                                </div>
+													<img src="assets/images/irmapbrain.jpg" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
+                                                    </div>
 													<div class="col-md py-2">
 														<blockquote class="blockquote">
-															<p>The trainers are great to work with. Workouts are always
-																changing and challenge each person in class to work to
-																the best of their ability</p>
-															<p>- Hugh Janus</p>
+															<p>The gym is the friendliest, most supportive one I’ve
+																ever tried. Great place to workout! Highly
+																recommend.
+															</p>
+															<p>- Irma P Brain</p>
 														</blockquote>
 													</div>
 												</div>
@@ -349,15 +423,14 @@
 											<div class="carousel-item">
 												<div class="row align-items-center">
 													<div class="col-md py-2">
-														<img src="assets/images/DummyImageQuote.png" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
-                                                    </div>
+														<img src="assets/images/Kim_Kardashian_wikimediaCCEdit.jpg" class="rounded-circle mr-5 qoute-image" alt="..." height="100" width="100">
+                                                        </div>
 														<div class="col-md py-2">
 															<blockquote class="blockquote">
-																<p>The gym is the friendliest, most supportive one I’ve
-																	ever tried. Great place to workout! Highly
-																	recommend.
-																</p>
-																<p>- Irma P Brain</p>
+																<p>The Staff are knowledgeable and friendly. They
+																	approach fitness
+																	on a level I haven’t experienced at other gyms.</p>
+																<p>- Kim K</p>
 															</blockquote>
 														</div>
 													</div>

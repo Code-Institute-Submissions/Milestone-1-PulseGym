@@ -1,5 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(41 49 48);
+    color: white;
+    text-align: center;
 }
 
 .callout-container {
@@ -24,7 +27,7 @@ body {
 }
 
 .jumbotron-header {
-    color: #d825ad;
+    color: #ff0fc5;
     /*color: #d85025;*/
     /*color: #d82554;*/
     /*color: #d8aa25;*/
@@ -60,7 +63,7 @@ body {
     border-radius: 15px;
     width: 140px;
     color: white;
-    background-color: #d825ad;
+    background-color: #ff0fc5;
     /*background-color: #d85025;*/
     /*background-color: #d82554;*/
     /*background-color: #d8aa25;*/
@@ -74,6 +77,19 @@ body {
         background-color: #a90673;
     border-color: #000000;
     color: white;
+}
+
+.about-info{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card-body {
+    background-color: #212525;
+}
+
+.card-med-up {
+    background-color: #212525;
 }
 
 .about-container {}

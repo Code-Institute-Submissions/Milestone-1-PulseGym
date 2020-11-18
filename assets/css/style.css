@@ -6,16 +6,21 @@ body {
 }
 
 nav {
-    height: 50px;
+    height: 55px;
     background-color: #212525;
 }
 
-.navbar .navbar-nav .nav-link {
+.nav-link {
+    font-weight: 600;
     padding: 0 10px 0 10px;
     margin-bottom: 2px;
     margin-top: 6px;
     line-height: 5px;
-    color: #fff;
+    color: #ff0fc5;
+}
+
+.nav-link:hover {
+    color: #159da0;
 }
 
 .callout-container {
@@ -71,15 +76,18 @@ nav {
 
 /*Buttons*/
 
+.btn {
+    color: #fff;
+    background-color: #159da0;
+    border-color: #159da0;
+}
+
 .btn-call {
     font-weight: bold;
     border-radius: 15px;
     width: 140px;
     color: white;
     background-color: #ff0fc5;
-    /*background-color: #d85025;*/
-    /*background-color: #d82554;*/
-    /*background-color: #d8aa25;*/
     border-color: rgb(0, 0, 0);
 }
 
@@ -87,9 +95,15 @@ nav {
 .btn-call:active,
 .btn-call:focus,
 .btn-call:active:focus {
-        background-color: #a90673;
+    background-color: #a90673;
     border-color: #000000;
     color: white;
+}
+
+.button-collapse {
+    color: #ff0fc5;
+    background-color: #212525;
+    border-color: #212525;
 }
 
 .about-info{
@@ -99,16 +113,42 @@ nav {
 
 .card-body {
     background-color: #212525;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-med-up {
+  margin-top: auto;
 }
 
 .card-med-up {
     background-color: #212525;
+    min-height: 496px;
 }
 
-.about-container {}
+.card-mobile {
+    background-color: #212525;
+}
 
-.classes-container {}
+.main-headers {
+    color: #ff0fc5;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: -50px;
+}
 
-.signup-container {}
+.sub-headings {
+    color: #159da0;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 40px 0px 40px 0px;
+}
 
-.testimonials-container {}
+#membership {
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+.contact-form {
+    margin: 10%;
+}

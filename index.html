@@ -1,622 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Pulse Gym</title>
+    </head>
 
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<title>Pulse Gym</title>
-</head>
-
-<body>
-	<!--================================================ Nav ========================================================-->
-	<!--Navbar toggler inspired by code institute whiskeydrop lesson-->
-	<nav class="navbar navbar-expand-sm fixed-top">
-		<a class="navbar-brand" href="#home">
-			<img src="assets/images/Pulse-Image-by-Claire-Dela-Cruz-from-Pixabay-New.png"  width="50" height="50" alt="Pulse Logo" loading="lazy">
+    <body>
+        <!--================================================ Nav ========================================================-->
+        <!--Navbar toggler inspired by code institute whiskeydrop lesson-->
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/images/Pulse-Image-by-Claire-Dela-Cruz-from-Pixabay-New.png" width="50" height="50" alt="Pulse Logo" loading="lazy" />
             </a>
-			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#home">HOME</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#classes">CLASSES</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#membership">MEMBERSHIP</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#sign-up">SIGN UP</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#testimonials">TESTIMONIALS</a>
-					</li>
-				</ul>
-			</div>
-	</nav>
-	<!--================================================ Nav End ====================================================-->
-	<!--================================================ Callout ====================================================-->
-		<div class="container-fluid callout-container" id="home">
-			<div class="opaque-overlay">&nbsp;</div>
-			<div class="row">
-				<div class="col-12 my-5 callout">
-					<section class="jumbotron text-center">
-						<h1 class="jumbotron-header">For all of your fitness needs.</h1>
-						<hr class="block-divider">
-						<p class="jumbotron-lead">Keep your finger on the pulse and join our Gym today!</p>
-						<button class="btn btn-lg btn-call">Sign Up!</button>
-					</section>
-				</div>
-			</div>
-		</div>
-		<!--================================================ Callout End ================================================-->
-		<!--================================================ About ======================================================-->
-		<div class="container about-container">
-			<div class="row">
-				<div class="col-12 my-5 about">
-					<h2 class="text-uppercase main-headers about">About Us</h2>
-					<hr class="block-divider">
-				</div>
-				<div class="col-12">
-					<p class="about-info">At Pulse Gym, you'll find everything you need for a great workout. From
-						quality gym equipment and
-						low cost flexible memberships, to great regular excersie and weight training classes, there are
-						lots of reasons why you should join Pulse Gym <strong>today!</strong>.</p>
-				</div>
-			</div>
-		</div>
-		<!--================================================ About End ==================================================-->
-		<!--================================================ Classes ====================================================-->
-		<div class="container classes-container" id="classes">
-			<div class="row">
-				<div class="col-12 my-5">
-					<h2 class="text-uppercase main-headers">Fitness Classes</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 my-3">
-					<h3 class="sub-headings"><i class="fas fa-heartbeat"></i> Cardio</h3>
-					<hr class="block-divider">
-				</div>
-			</div>
-			<!--================================================ Cardio Mobile ==========================================-->
-			<div class="accordion" id="accordianCardio">
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<img src="assets/images/spinning-royalty-free.jpg" class="card-img-top" alt="Cardio Classes">
-					<div class="card-header" id="headingCardio">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseZumba" aria-expanded="false" aria-controls="collapseZumba">
-                                Zumba
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseZumba" class="collapse" aria-labelledby="headingCardio"
-						data-parent="#accordianCardio">
-						<div class="card-body">
-							Zumba is a combination of salsa dancing and aerobics which gives you a full
-							body work out. Our Zumba class involves fast and slow dancing working the whole body for a
-							great
-							all-round work out.
-						</div>
-						<a href="#" class="btn btn-primary">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingStep">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseStep" aria-expanded="false" aria-controls="collapseStep">
-                                Step
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseStep" class="collapse" aria-labelledby="headingStep"
-						data-parent="#accordianCardio">
-						<div class="card-body">
-							Step is a rhythm based class on a short raised platform that you step
-							up and down on in different patterns. Our step classes are a really fun way to get you
-							moving and to improve your cardio fitness.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingSpinning">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseSpinning" aria-expanded="false" aria-controls="collapseSpinning">
-                                Spinning
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseSpinning" class="collapse" aria-labelledby="headingSpinning"
-						data-parent="#accordianCardio">
-						<div class="card-body">
-							Spinning is a stationary cycle class that combines relies fast-paced
-							cycling and slower paced rest intervals allowing you time to recover for the next speed
-							burst.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-			</div>
-			<!--================================================ Cardio Mobile End ======================================-->
-			<!--================================================ Cardio Med-Up ==========================================-->
-			<div class="row">
-				<div class="d-none d-md-block col-md-4 cardio">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/zumba.jpg" class="card-img-top" alt="Zumba Class">
-						<div class="card-body">
-							<h5 class="card-title">Zumba</h5>
-							<p class="card-text">Zumba is a combination of salsa dancing and aerobics which gives you a
-								full body work out. Our Zumba class involves fast and slow dancing working the whole
-								body for a great all-round work out.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-block col-md-4 cardio">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/step-aerobics-Image-step-aerobics.jpg" class="card-img-top" alt="Step Class">
-						<div class="card-body">
-							<h5 class="card-title">Step</h5>
-							<p class="card-text">Step is a rhythm based class on a short raised platform that you step
-								up and down on in different patterns. Our step classes are a really fun way to get you
-								moving and to improve your cardio fitness.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-block col-md-4 cardio">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/spinning-royalty-free.jpg" class="card-img-top" alt="Spin Class">
-						<div class="card-body">
-							<h5 class="card-title">Spinning</h5>
-							<p class="card-text">Spinning is a stationary cycle class that combines relies fast-paced
-								cycling and slower paced rest intervals allowing you time to recover for the next speed
-								burst.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--================================================ Cardio Med-Up End ======================================-->
-			<div class="row">
-				<div class="col-12 my-3">
-					<h3 class="sub-headings"><i class="fas fa-brain"></i> Mind and Body</h3>
-					<hr class="block-divider">
-				</div>
-			</div>
-			<!--================================================ Mind Mobile =================================================-->
-			<div class="accordion" id="accordianMind">
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<img src="assets/images/yoga.jpg" class="card-img-top" alt="Mind and Body Classes">
-					<div class="card-header" id="headingPilates">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapsePilates" aria-expanded="false" aria-controls="collapsePilates">
-                                Pilates
-                            </button>
-						</h2>
-					</div>
-					<div id="collapsePilates" class="collapse" aria-labelledby="headingPilates"
-						data-parent="#accordianMind">
-						<div class="card-body">
-							Pilates, similar to Yoga, is good for the whole body. It’s wide range
-							of benefits include increased flexibility, more energy, better posture and reduced
-							stress.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingMind">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseYoga" aria-expanded="false" aria-controls="collapseYoga">
-                                Yoga
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseYoga" class="collapse" aria-labelledby="headingYoga" data-parent="#accordianMind">
-						<div class="card-body">
-							Yoga, similar to Pilates, but focuses more on breathing techniques,
-							strength and flexibility, relaxation and mindfulness. It can help reduce stress levels
-							and improve overall health.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingBody">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseBody" aria-expanded="false" aria-controls="collapseBody">
-                                Body Tone
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseBody" class="collapse" aria-labelledby="headingBody" data-parent="#accordianMind">
-						<div class="card-body">
-							Body tone class is great for anyone looking to tone their body (It’s
-							right there in the title!). The exercises are set to a soundtrack that will inspire you
-							to a full body workout.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-			</div>
-			<!--================================================ Mind Mobile End =============================================-->
-			<!--================================================ Mind Med-Up =================================================-->
-			<div class="row">
-				<div class="d-none d-md-inline-block col-md-4 mind-and-body">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/pilates-no-royalty.jpg" class="card-img-top" alt="Pilates Class">
-						<div class="card-body">
-							<h5 class="card-title">Pilates</h5>
-							<p class="card-text">Pilates, similar to Yoga, is good for the whole body. It’s wide range
-								of benefits include increased flexibility, more energy, better posture and reduced
-								stress.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-inline-block col-md-4 mind-and-body">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/yoga.jpg" class="card-img-top" alt="Yoga Class">
-						<div class="card-body">
-							<h5 class="card-title">Yoga</h5>
-							<p class="card-text">Yoga, similar to Pilates, but focuses more on breathing techniques,
-								strength and flexibility, relaxation and mindfulness. It can help reduce stress levels
-								and improve overall health.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-inline-block col-md-4 mind-and-body">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/body-tone.jpg" class="card-img-top" alt="Body Tone Class">
-						<div class="card-body">
-							<h5 class="card-title">Body Tone</h5>
-							<p class="card-text">Body tone class is great for anyone looking to tone their body (It’s
-								right there in the title!). The exercises are set to a soundtrack that will inspire you
-								to a full body workout.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--================================================ Mind Med-Up End =============================================-->
-			<div class="row">
-				<div class="col-12 my-3">
-					<h3 class="sub-headings"><i class="fas fa-dumbbell"></i> Strength</h3>
-					<hr class="block-divider">
-				</div>
-			</div>
-			<!--================================================ Strength Mobile ============================================-->
-			<div class="accordion" id="accordianStrength">
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<img src="assets/images/Pump-Iron.jpg" class="card-img-top" alt="Cardio Classes">
-					<div class="card-header" id="headingKettlebell">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseKettlebell" aria-expanded="false" aria-controls="collapseKettlebell">
-                                Kettlebell
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseKettlebell" class="collapse" aria-labelledby="headingKettlebell"
-						data-parent="#accordianStrength">
-						<div class="card-body">
-							Kettlebell training improves strength, balance, cardio and endurance.
-							It’s an excellent core work out that only need you and a kettlebell.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingPump">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapsePump" aria-expanded="false" aria-controls="collapsePump">
-                                Pump Iron
-                            </button>
-						</h2>
-					</div>
-					<div id="collapsePump" class="collapse" aria-labelledby="headingPump"
-						data-parent="#accordianStrength">
-						<div class="card-body">
-							Pump Iron is a barbell workout that uses light weights and high reps.
-							The class mixes a variety of exercises including chest presses, deadlifts, curls, squats
-							and overhead presses.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-				<div class="card card-mobile d-block d-md-none" style="width: 90%;">
-					<div class="card-header" id="headingKiller">
-						<h2 class="mb-0">
-							<button class="btn btn-link btn-block collapsed button-collapse" type="button" data-toggle="collapse" data-target="#collapseKiller" aria-expanded="false" aria-controls="collapseKiller">
-                                Killer Abs
-                            </button>
-						</h2>
-					</div>
-					<div id="collapseKiller" class="collapse" aria-labelledby="headingKiller"
-						data-parent="#accordianStrength">
-						<div class="card-body">
-							Killer Abs is a great workout for core strengthening. It concentrates
-							on abdominal and core exercises to tone and strengthen this area, helping to improve
-							sports and gym performance.
-						</div>
-						<a href="#" class="btn">Book Class</a>
-					</div>
-				</div>
-			</div>
-			<!--================================================ Strength Mobile End ========================================-->
-			<!--================================================ Strength Med-Up ==============================================-->
-			<div class="row">
-				<div class="d-none d-md-inline-block col-md-4 strength">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/kettlebellclass.jpg" class="card-img-top" alt="Kettlebell Class">
-						<div class="card-body">
-							<h5 class="card-title">Kettlebell</h5>
-							<p class="card-text">Kettlebell training improves strength, balance, cardio and endurance.
-								It’s an excellent core work out that only need you and a kettlebell.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-inline-block col-md-4 strength">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/Pump-Iron.jpg" class="card-img-top" alt="Pump Iron Class">
-						<div class="card-body">
-							<h5 class="card-title">Pump Iron</h5>
-							<p class="card-text">Pump Iron is a barbell workout that uses light weights and high reps.
-								The class mixes a variety of exercises including chest presses, deadlifts, curls, squats
-								and overhead presses.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-inline-block col-md-4 strength">
-					<div class="card card-med-up" style="width: 95%;">
-						<img src="assets/images/killer-abs-freepik.jpg" class="card-img-top" alt="Killer Abs Class">
-						<div class="card-body">
-							<h5 class="card-title">Killer Abs</h5>
-							<p class="card-text">Killer Abs is a great workout for core strengthening. It concentrates
-								on abdominal and core exercises to tone and strengthen this area, helping to improve
-								sports and gym performance.</p>
-							<a href="#" class="btn btn-med-up">Book Class</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--================================================ Strength Med-Up End ========================================-->
-		<!--================================================ Classes End ================================================-->
-		<!--================================================ Membership =================================================-->
-		<div class="container membership-container">
-			<div class="row">
-				<div class="col-12 my-5 about">
-					<h2 class="text-uppercase main-headers about">Membership</h2>
-					<hr class="block-divider">
-				</div>
-			</div>
-		</div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#classes">CLASSES</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#membership">MEMBERSHIP</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#sign-up">SIGN UP</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--================================================ Nav End ====================================================-->
+        <!--================================================ Callout ====================================================-->
+        <div class="container-fluid callout-container" id="home">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row">
+                <div class="col-12 my-5 callout">
+                    <section class="jumbotron text-center">
+                        <h1 class="jumbotron-header">For all of your fitness needs.</h1>
+                        <hr class="block-divider" />
+                        <p class="jumbotron-lead">Keep your finger on the pulse and join our Gym today!</p>
+                        <button class="btn btn-lg btn-call">Sign Up!</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--================================================ Callout End ================================================-->
+        <!--================================================ About ======================================================-->
+        <div class="container about-container">
+            <div class="row">
+                <div class="col-12 my-5 about">
+                    <h2 class="text-uppercase main-headers about">About Us</h2>
+                    <hr class="block-divider" />
+                </div>
+                <div class="col-12">
+                    <p class="about-info">
+                        At Pulse Gym, you'll find everything you need for a great workout. From quality gym equipment and low cost flexible memberships, to great regular excersie and weight training classes, there are lots of reasons why
+                        you should join Pulse Gym <strong>today!</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--================================================ About End ==================================================-->
+        <!--================================================ Classes ====================================================-->
+        <div class="container classes-container" id="classes">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase main-headers">Fitness Classes</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h3 class="sub-headings"><i class="fas fa-heartbeat"></i> Cardio</h3>
+                    <hr class="block-divider" />
+                </div>
+            </div>
+            <!--================================================ Cardio Med-Up ==========================================-->
+            <div class="row">
+                <div class="d-none d-md-block col-md-4 cardio">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/zumba.jpg" class="card-img-top" alt="Zumba Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Zumba</h5>
+                            <p class="card-text">
+                                Zumba is a combination of salsa dancing and aerobics which gives you a full body work out. Our Zumba class involves fast and slow dancing working the whole body for a great all-round work out.
+                            </p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-4 cardio">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/step-aerobics-Image-step-aerobics.jpg" class="card-img-top" alt="Step Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Step</h5>
+                            <p class="card-text">
+                                Step is a rhythm based class on a short raised platform that you step up and down on in different patterns. Our step classes are a really fun way to get you moving and to improve your cardio fitness.
+                            </p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-4 cardio">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/spinning-royalty-free.jpg" class="card-img-top" alt="Spin Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Spinning</h5>
+                            <p class="card-text">Spinning is a stationary cycle class that combines relies fast-paced cycling and slower paced rest intervals allowing you time to recover for the next speed burst.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--================================================ Cardio Med-Up End ======================================-->
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h3 class="sub-headings"><i class="fas fa-brain"></i> Mind and Body</h3>
+                    <hr class="block-divider" />
+                </div>
+            </div>
+            <!--================================================ Mind Med-Up =================================================-->
+            <div class="row">
+                <div class="d-none d-md-inline-block col-md-4 mind-and-body">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/pilates-no-royalty.jpg" class="card-img-top" alt="Pilates Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pilates</h5>
+                            <p class="card-text">Pilates, similar to Yoga, is good for the whole body. It’s wide range of benefits include increased flexibility, more energy, better posture and reduced stress.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-inline-block col-md-4 mind-and-body">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/yoga.jpg" class="card-img-top" alt="Yoga Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga</h5>
+                            <p class="card-text">Yoga, similar to Pilates, but focuses more on breathing techniques, strength and flexibility, relaxation and mindfulness. It can help reduce stress levels and improve overall health.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-inline-block col-md-4 mind-and-body">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/body-tone.jpg" class="card-img-top" alt="Body Tone Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Body Tone</h5>
+                            <p class="card-text">Body tone class is great for anyone looking to tone their body (It’s right there in the title!). The exercises are set to a soundtrack that will inspire you to a full body workout.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--================================================ Mind Med-Up End =============================================-->
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h3 class="sub-headings"><i class="fas fa-dumbbell"></i> Strength</h3>
+                    <hr class="block-divider" />
+                </div>
+            </div>
+            <!--================================================ Strength Med-Up ==============================================-->
+            <div class="row">
+                <div class="d-none d-md-inline-block col-md-4 strength">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/kettlebellclass.jpg" class="card-img-top" alt="Kettlebell Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Kettlebell</h5>
+                            <p class="card-text">Kettlebell training improves strength, balance, cardio and endurance. It’s an excellent core work out that only need you and a kettlebell.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-inline-block col-md-4 strength">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/Pump-Iron.jpg" class="card-img-top" alt="Pump Iron Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pump Iron</h5>
+                            <p class="card-text">Pump Iron is a barbell workout that uses light weights and high reps. The class mixes a variety of exercises including chest presses, deadlifts, curls, squats and overhead presses.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-inline-block col-md-4 strength">
+                    <div class="card card-med-up" style="width: 95%;">
+                        <img src="assets/images/killer-abs-freepik.jpg" class="card-img-top" alt="Killer Abs Class" />
+                        <div class="card-body">
+                            <h5 class="card-title">Killer Abs</h5>
+                            <p class="card-text">Killer Abs is a great workout for core strengthening. It concentrates on abdominal and core exercises to tone and strengthen this area, helping to improve sports and gym performance.</p>
+                            <a href="#" class="btn btn-med-up">Book Class</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================================================ Strength Med-Up End ========================================-->
+        <!--================================================ Classes End ================================================-->
+        <!--================================================ Membership =================================================-->
+        <div class="container membership-container">
+            <div class="row">
+                <div class="col-12 my-5 about">
+                    <h2 class="text-uppercase main-headers about">Membership</h2>
+                    <hr class="block-divider" />
+                </div>
+            </div>
+        </div>
         <div class="container">
-			<div class="row">
-				<div class="col-6">
-					<div class="card" style="width: 90%;">
-						<div class="card-body">
-							<h5 class="card-title">Monthly Membership</h5>
-							<h6 class="card-subtitle mb-2 text-muted">€29.99</h6>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item member-item">Unlimited Access</li>
-							<li class="list-group-item member-item">Any Gym Facility</li>
-							<li class="list-group-item member-item">One Free Class Per Month</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-6">
-					<div class="card" style="width: 90%;">
-						<div class="card-body">
-							<h5 class="card-title">Yearly Membership</h5>
-							<h6 class="card-subtitle mb-2 text-muted">€299</h6>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item member-item">Unlimited Access</li>
-							<li class="list-group-item member-item">Any Gym Facility</li>
-							<li class="list-group-item member-item">Three Free Classes Per Month</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--================================================ Membership End =============================================-->
-		<!--================================================ Sign Up ====================================================-->
-		<div class="container signup-container">
-			<form class="contact-form mt-5" id="sign-up">
-				<div class="form-group py-1">
-					<input type="text" class="form-control form-input" id="f-name" name="f-name" placeholder="First Name" required="">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="width: 90%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Monthly Membership</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">€29.99</h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item member-item">Unlimited Access</li>
+                            <li class="list-group-item member-item">Any Gym Facility</li>
+                            <li class="list-group-item member-item">One Free Class Per Month</li>
+                        </ul>
+                    </div>
                 </div>
-				<div class="form-group py-1">
-					<input type="text" class="form-control form-input" id="l-name" name="l-name" placeholder="Last Name" required="">
-                 </div>
-				<div class="form-group py-1">
-					<input type="email" class="form-control form-input" id="email" name="email" placeholder="Email" required="">
+                <div class="col-6">
+                    <div class="card" style="width: 90%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Yearly Membership</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">€299</h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item member-item">Unlimited Access</li>
+                            <li class="list-group-item member-item">Any Gym Facility</li>
+                            <li class="list-group-item member-item">Three Free Classes Per Month</li>
+                        </ul>
+                    </div>
                 </div>
-				<div class="form-check mt-3 mb-1">
-					<input class="form-check-input" type="radio" name="formradio" id="monthlyMembership" value="monthly" checked="">
-					<label class="form-check-label" for="monthlyMembership">Monthly Membership</label>
-				</div>
-				<div class="form-check mt-3 mb-1">
-					<input class="form-check-input" type="radio" name="formradio" id="yearlyMembership" value="yearly">
-					<label class="form-check-label" for="monthlyMembership">Yearly Membership</label>
-				</div>
-				<div class="form-check mt-3 mb-4">
-					<input class="form-check-input" type="radio" name="formradio" id="questions" value="questions">
-					<label class="form-check-label" for="yearlyMembership">Just a query</label>
-				</div>
-					<label for="message">Do you have a Question?</label>
-					<textarea id="message" name="message" rows="5" class="form-control form-text-area" placeholder="Message"></textarea>
-					<button type="submit" class="btn btn-block my-5 p-2">SEND</button>
-			</form>
-		</div>
-		<!--================================================ Sign Up End ================================================-->
-		<!--================================================ Testimonials ===============================================-->
-		<div class="container testimonials-container" id="testimonials">
-			<div class="row">
-				<div class="col-12 my-5">
-					<h2 class="text-uppercase main-headers">Testimonials</h2>
-				</div>
-			</div>
-			<!--carousel side by side fix inspired by "Zim" @ Stackoverflow https://stackoverflow.com/questions/62572072/bootstrap-4-carousel-text-left-image-right-->
-			<div class="container-fluid py-2">
-				<div class="row align-items-center">
-					<div class="col-auto">
-						<a class="h1" href="#carouselExampleControls" role="button" data-slide="prev">
-							<span>&lt;</span>
-						</a>
-					</div>
-					<div class="col">
-						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="row align-items-center">
-										<div class="col-md py-2">
-											<img src="assets/images/queen-edit.jpg" class="rounded-circle mr-5 qoute-image" alt="Liz Quote" height="100" width="100">
-                                            </div>
-											<div class="col-md py-2">
-												<blockquote class="blockquote">
-													<p>The trainers are awesome! I would highly recommend PulseGym
-														for anyone of any fitness level.</p>
-													<p>- Liz HRH</p>
-												</blockquote>
-											</div>
-										</div>
-									</div>
-									<div class="carousel-item">
-										<div class="row align-items-center">
-											<div class="col-md py-2">
-												<img src="assets/images/hughjars.jpg" class="rounded-circle mr-5 qoute-image" alt="Hugh Quote" height="100" width="100">
-                                                </div>
-												<div class="col-md py-2">
-													<blockquote class="blockquote">
-														<p>The trainers are great to work with. Workouts are always
-															changing and challenge each person in class to work to
-															the best of their ability</p>
-														<p>- Hugh Jars</p>
-													</blockquote>
-												</div>
-											</div>
-										</div>
-										<div class="carousel-item">
-											<div class="row align-items-center">
-												<div class="col-md py-2">
-													<img src="assets/images/irmapbrain.jpg" class="rounded-circle mr-5 qoute-image" alt="Irma Quote" height="100" width="100">
-                                                    </div>
-													<div class="col-md py-2">
-														<blockquote class="blockquote">
-															<p>The gym is the friendliest, most supportive one I’ve
-																ever tried. Great place to workout! Highly
-																recommend.
-															</p>
-															<p>- Irma P Brain</p>
-														</blockquote>
-													</div>
-												</div>
-											</div>
-											<div class="carousel-item">
-												<div class="row align-items-center">
-													<div class="col-md py-2">
-														<img src="assets/images/Kim_Kardashian_wikimediaCCEdit.jpg" class="rounded-circle mr-5 qoute-image" alt="Kim Quote" height="100" width="100">
-                                                        </div>
-														<div class="col-md py-2">
-															<blockquote class="blockquote">
-																<p>The Staff are knowledgeable and friendly. They
-																	approach fitness
-																	on a level I haven’t experienced at other gyms.</p>
-																<p>- Kim K</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-auto">
-										<a class="h1" href="#carouselExampleControls" role="button" data-slide="next">
-											<span>&gt;</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-	<!--================================================ Testimonials End ===========================================-->
-	<!--================================================ Footer =====================================================-->
-	<footer>
-		<div class="row">
-			<div class="col-6 col-sm-4">
-				<p>Our Gym can be found at:</p>
-				<address class="address-box">
-					<strong>Pulse Gym</strong><br>
-                    124 Conch Street.<br>
-                      Bikini Bottom<br>
-                    Pacific Ocean<br>
-                    (707) 663-4279<br>
-					<br>
-                    spongebob@pulsegym.com
-                </address>
-			</div>
-			<div class="col-6 col-sm-4">
-				<h5>Follow Us</h5>
-				<li class="list-inline-item">
-					<a target="_blank" href="https://facebook.com/">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-						<span class="sr-only">Facebook</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a target="_blank" href="https://www.instagram.com/">
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-						<span class="sr-only">Instagram</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a target="_blank" href="https://www.youtube.com/">
-						<i class="fa fa-youtube" aria-hidden="true"></i>
-						<span class="sr-only">YouTube</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a target="_blank" href="https://twitter.com/">
-						<i class="fa fa-twitter" aria-hidden="true"></i>
-						<span class="sr-only">Twitter</span>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a target="_blank" href="https://www.pinterest.com/">
-						<i class="fa fa-pinterest" aria-hidden="true"></i>
-						<span class="sr-only">Pinterest</span>
-					</a>
-				</li>
-			</div>
-		</div>
-	</footer>
-	<!--================================================ Footer End =================================================-->
-    	<script src="https://kit.fontawesome.com/d7066448f0.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-		integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
-</body>
-
+            </div>
+        </div>
+        <!--================================================ Membership End =============================================-->
+        <!--================================================ Sign Up ====================================================-->
+        <div class="container signup-container">
+            <form class="contact-form mt-5" id="sign-up">
+                <div class="form-group py-1">
+                    <input type="text" class="form-control form-input" id="f-name" name="f-name" placeholder="First Name" required="" />
+                </div>
+                <div class="form-group py-1">
+                    <input type="text" class="form-control form-input" id="l-name" name="l-name" placeholder="Last Name" required="" />
+                </div>
+                <div class="form-group py-1">
+                    <input type="email" class="form-control form-input" id="email" name="email" placeholder="Email" required="" />
+                </div>
+                <div class="form-check mt-3 mb-1">
+                    <input class="form-check-input" type="radio" name="formradio" id="monthlyMembership" value="monthly" checked="" />
+                    <label class="form-check-label" for="monthlyMembership">Monthly Membership</label>
+                </div>
+                <div class="form-check mt-3 mb-1">
+                    <input class="form-check-input" type="radio" name="formradio" id="yearlyMembership" value="yearly" />
+                    <label class="form-check-label" for="monthlyMembership">Yearly Membership</label>
+                </div>
+                <div class="form-check mt-3 mb-4">
+                    <input class="form-check-input" type="radio" name="formradio" id="questions" value="questions" />
+                    <label class="form-check-label" for="yearlyMembership">Just a query</label>
+                </div>
+                <label for="message">Do you have a Question?</label>
+                <textarea id="message" name="message" rows="5" class="form-control form-text-area" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-block my-5 p-2">SEND</button>
+            </form>
+        </div>
+        <!--================================================ Sign Up End ================================================-->
+        <!--================================================ Testimonials ===============================================-->
+        <div class="container testimonials-container" id="testimonials">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase main-headers">Testimonials</h2>
+                </div>
+            </div>
+            <!--carousel side by side fix inspired by "Zim" @ Stackoverflow https://stackoverflow.com/questions/62572072/bootstrap-4-carousel-text-left-image-right-->
+            <div class="container-fluid py-2">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <a class="h1" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span>&lt;</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row align-items-center">
+                                        <div class="col-md py-2">
+                                            <img src="assets/images/queen-edit.jpg" class="rounded-circle mr-5 qoute-image" alt="Liz Quote" height="100" width="100" />
+                                        </div>
+                                        <div class="col-md py-2">
+                                            <blockquote class="blockquote">
+                                                <p>The trainers are awesome! I would highly recommend PulseGym for anyone of any fitness level.</p>
+                                                <p>- Liz HRH</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md py-2">
+                                            <img src="assets/images/hughjars.jpg" class="rounded-circle mr-5 qoute-image" alt="Hugh Quote" height="100" width="100" />
+                                        </div>
+                                        <div class="col-md py-2">
+                                            <blockquote class="blockquote">
+                                                <p>The trainers are great to work with. Workouts are always changing and challenge each person in class to work to the best of their ability</p>
+                                                <p>- Hugh Jars</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md py-2">
+                                            <img src="assets/images/irmapbrain.jpg" class="rounded-circle mr-5 qoute-image" alt="Irma Quote" height="100" width="100" />
+                                        </div>
+                                        <div class="col-md py-2">
+                                            <blockquote class="blockquote">
+                                                <p>The gym is the friendliest, most supportive one I’ve ever tried. Great place to workout! Highly recommend.</p>
+                                                <p>- Irma P Brain</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row align-items-center">
+                                        <div class="col-md py-2">
+                                            <img src="assets/images/Kim_Kardashian_wikimediaCCEdit.jpg" class="rounded-circle mr-5 qoute-image" alt="Kim Quote" height="100" width="100" />
+                                        </div>
+                                        <div class="col-md py-2">
+                                            <blockquote class="blockquote">
+                                                <p>The Staff are knowledgeable and friendly. They approach fitness on a level I haven’t experienced at other gyms.</p>
+                                                <p>- Kim K</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="h1" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span>&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================================================ Testimonials End ===========================================-->
+        <!--================================================ Footer =====================================================-->
+        <footer>
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <p>Our Gym can be found at:</p>
+                    <address class="address-box">
+                        124 Conch Street.Bikini Bottom,Pacific Ocean<br />
+                        (707) 663-4279<br />
+                        spongebob@pulsegym.com
+                    </address>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <h5>Follow Us</h5>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://facebook.com/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </footer>
+        <!--================================================ Footer End =================================================-->
+        <script src="https://kit.fontawesome.com/d7066448f0.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
 </html>

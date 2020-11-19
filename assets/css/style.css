@@ -100,12 +100,6 @@ nav {
     color: white;
 }
 
-.button-collapse {
-    color: #ff0fc5;
-    background-color: #212525;
-    border-color: #212525;
-}
-
 .about-info{
     margin-left: 20%;
     margin-right: 20%;
@@ -124,10 +118,6 @@ nav {
 .card-med-up {
     background-color: #212525;
     min-height: 496px;
-}
-
-.card-mobile {
-    background-color: #212525;
 }
 
 .main-headers {

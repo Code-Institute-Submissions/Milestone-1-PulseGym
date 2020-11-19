@@ -126,6 +126,7 @@ nav {
     font-weight: 600;
     font-size: 50px;
     margin-bottom: -50px;
+    margin-bottom: 50px;
 }
 
 .sub-headings {
@@ -148,6 +149,6 @@ nav {
     background-color: #212525;
 }
 
-.about {
+/*.headers {
     margin-bottom: 50px;
-}
+}*/

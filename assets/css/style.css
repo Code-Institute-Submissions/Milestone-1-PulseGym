@@ -153,3 +153,11 @@ nav {
 .contact-form {
     margin: 10%;
 }
+
+.member-item {
+    background-color: #212525;
+}
+
+.about {
+    margin-bottom: 50px;
+}

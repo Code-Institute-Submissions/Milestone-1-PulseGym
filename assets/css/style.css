@@ -16,7 +16,7 @@ nav {
     margin-bottom: 2px;
     margin-top: 6px;
     line-height: 5px;
-    color: #ff0fc5;
+    color: #00ffe7;
 }
 
 .nav-link:hover {
@@ -45,7 +45,7 @@ nav {
 }
 
 .jumbotron-header {
-    color: #ff0fc5;
+    color: #00ffe7;
     /*color: #d85025;*/
     /*color: #d82554;*/
     /*color: #d8aa25;*/
@@ -72,7 +72,12 @@ nav {
     height: 6px;
     border: 0;
     background-color: #159da0;
+     /*border: 0;
+    height: 1px;*/
+    background-image: linear-gradient(to right, rgba(41, 49, 48, 0.9), rgba(41, 49, 48, 0), rgba(41, 49, 48, 0.9));
 }
+
+/*horizontal rule styling used inspired by https://css-tricks.com/examples/hrs/*/
 
 /*Buttons*/
 
@@ -87,15 +92,15 @@ nav {
     border-radius: 15px;
     width: 140px;
     color: white;
-    background-color: #ff0fc5;
-    border-color: rgb(0, 0, 0);
+    background-color: #00ffe7;
+    /*border-color: rgb(0, 0, 0);*/
 }
 
 .btn-call:hover,
 .btn-call:active,
 .btn-call:focus,
 .btn-call:active:focus {
-    background-color: #a90673;
+    background-color: #159da0;
     border-color: #000000;
     color: white;
 }
@@ -111,22 +116,20 @@ nav {
     flex-direction: column;
 }
 
-.btn-med-up {
+.btn-classes {
   margin-top: auto;
 }
 
-.card-med-up {
+.card-classes {
     background-color: #212525;
     min-height: 496px;
 }
 
 .main-headers {
-    color: #ff0fc5;
-    /*color: #a673c5;*/
+    color: #00ffe7;
     font-weight: 600;
     font-size: 50px;
-    margin-bottom: -50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 .sub-headings {
@@ -134,11 +137,6 @@ nav {
     font-weight: 600;
     font-size: 40px;
     margin: 40px 0px 40px 0px;
-}
-
-#membership {
-    margin-left: 5%;
-    margin-top: 80px;
 }
 
 .contact-form {
@@ -149,6 +147,11 @@ nav {
     background-color: #212525;
 }
 
-/*.headers {
-    margin-bottom: 50px;
-}*/
+footer div {
+    width: 100%;
+}
+
+.footer-logo {
+    width:50px;
+    height: 50px;
+}

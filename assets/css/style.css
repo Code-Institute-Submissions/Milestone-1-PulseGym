@@ -1,4 +1,5 @@
 body {
+    width: 100vw;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(41 49 48);
     color: white;
@@ -46,9 +47,6 @@ nav {
 
 .jumbotron-header {
     color: #00ffe7;
-    /*color: #d85025;*/
-    /*color: #d82554;*/
-    /*color: #d8aa25;*/
     font-weight: bold;
     font-size: 3rem;
 }
@@ -92,7 +90,7 @@ nav {
     border-radius: 15px;
     width: 140px;
     color: white;
-    background-color: #00ffe7;
+    background-color: #159da0;
     /*border-color: rgb(0, 0, 0);*/
 }
 
@@ -100,7 +98,7 @@ nav {
 .btn-call:active,
 .btn-call:focus,
 .btn-call:active:focus {
-    background-color: #159da0;
+    background-color: #00ffe7;
     border-color: #000000;
     color: white;
 }
@@ -123,6 +121,8 @@ nav {
 .card-classes {
     background-color: #212525;
     min-height: 496px;
+    margin-top: 5px;
+    width: 95%;
 }
 
 .main-headers {
@@ -139,12 +139,31 @@ nav {
     margin: 40px 0px 40px 0px;
 }
 
-.contact-form {
-    margin: 10%;
+.membership-month-outer {
+    padding-right: 0px;
 }
+
+.membership-month-inner {
+    margin-left: auto;
+}
+
+.membership-year-outer {
+    padding-left: 0px;
+}
+
+.membership-year-inner {
+    margin-right: auto;
+}
+
 
 .member-item {
     background-color: #212525;
+}
+
+.form-body {
+    background-color: #212525;
+    padding: 1.5rem;
+    margin-top: 30px;
 }
 
 footer div {

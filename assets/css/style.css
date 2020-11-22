@@ -6,6 +6,8 @@ body {
     text-align: center;
 }
 
+/* ===============================Nav Section=============================== */
+
 nav {
     height: 55px;
     background-color: #212525;
@@ -23,6 +25,8 @@ nav {
 .nav-link:hover {
     color: #159da0;
 }
+
+/* ===============================callout/home Section=============================== */
 
 .callout-container {
     height: 90vh;
@@ -70,15 +74,11 @@ nav {
     height: 6px;
     border: 0;
     background-color: #159da0;
-     /*border: 0;
-    height: 1px;*/
     background-image: linear-gradient(to right, rgba(41, 49, 48, 0.9), rgba(41, 49, 48, 0), rgba(41, 49, 48, 0.9));
+    /*=========Horizontal Rule styling used inspired by https://css-tricks.com/examples/hrs/=======*/
 }
 
-/*horizontal rule styling used inspired by https://css-tricks.com/examples/hrs/*/
-
-/*Buttons*/
-
+/* ===============================Buttons============================================ */
 .btn {
     color: #fff;
     background-color: #159da0;
@@ -103,10 +103,30 @@ nav {
     color: white;
 }
 
+/* ===============================Headers============================================ */
+
+.main-headers {
+    color: #00ffe7;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.sub-headers {
+    color: #159da0;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 40px 0px 40px 0px;
+}
+
+/* ===============================about section====================================== */
+
 .about-info{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+/* ===============================Classes cards====================================== */
 
 .card-body {
     background-color: #212525;
@@ -125,19 +145,12 @@ nav {
     width: 95%;
 }
 
-.main-headers {
-    color: #00ffe7;
-    font-weight: 600;
-    font-size: 50px;
-    margin-top: 60px;
+.carousel-container {
+    max-width: 700px;
+    margin: auto;
 }
 
-.sub-headings {
-    color: #159da0;
-    font-weight: 600;
-    font-size: 40px;
-    margin: 40px 0px 40px 0px;
-}
+/* ===============================membership section================================= */
 
 .membership-month-outer {
     padding-right: 0px;
@@ -155,7 +168,6 @@ nav {
     margin-right: auto;
 }
 
-
 .member-item {
     background-color: #212525;
 }
@@ -166,6 +178,8 @@ nav {
     margin-top: 30px;
 }
 
+/* ===============================Footer============================================= */
+
 footer div {
     width: 100%;
 }
@@ -173,4 +187,40 @@ footer div {
 .footer-logo {
     width:50px;
     height: 50px;
+}
+
+/* ===============================Media Queries====================================== */
+
+@media screen and (max-width: 500px) {
+    .main-headers {
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .sub-headers {
+    font-weight: 600;
+    font-size: 25px;
+    }
+    .membership-month-outer {
+    padding: 0;
+    max-width: 95%
+    }
+
+.membership-month-inner {
+    margin: 0;
+    }
+
+.membership-year-outer {
+    padding: 0;
+    max-width: 95%
+    }
+
+.membership-year-inner {
+    margin: 0;
+    }
+
+.membership-row {
+    margin-left: 0;
+}
 }

@@ -103,7 +103,6 @@ nav {
 .btn-call:focus,
 .btn-call:active:focus {
     background-color: #00ffe7;
-    border-color: #000000;
     color: white;
 }
 
@@ -191,6 +190,14 @@ footer div {
 
 .footer-logo {
     width: 80%;
+}
+
+.membership-container {
+    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /* =============================== Media Queries ====================================== */

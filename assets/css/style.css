@@ -26,6 +26,10 @@ nav {
     color: #159da0;
 }
 
+.nav-text-align {
+    text-align: end;
+}
+
 /* =============================== Callout/Home Section =============================== */
 
 .callout-container {

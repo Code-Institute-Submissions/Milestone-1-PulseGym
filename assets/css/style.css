@@ -1,12 +1,12 @@
 body {
     width: 100vw;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: rgb(41 49 48);
     color: white;
     text-align: center;
 }
 
-/* ===============================Nav Section=============================== */
+/* =============================== Nav Section =============================== */
 
 nav {
     height: 55px;
@@ -26,11 +26,11 @@ nav {
     color: #159da0;
 }
 
-/* ===============================callout/home Section=============================== */
+/* =============================== Callout/Home Section =============================== */
 
 .callout-container {
     height: 90vh;
-    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed; 
+    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -43,10 +43,10 @@ nav {
     position: relative;
 }
 
-/*Jumbotron*/
+/* =============================== Jumbotron ========================================== */
 
 .jumbotron {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .jumbotron-header {
@@ -66,7 +66,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .block-divider {
@@ -75,10 +75,10 @@ nav {
     border: 0;
     background-color: #159da0;
     background-image: linear-gradient(to right, rgba(41, 49, 48, 0.9), rgba(41, 49, 48, 0), rgba(41, 49, 48, 0.9));
-    /*=========Horizontal Rule styling used inspired by https://css-tricks.com/examples/hrs/=======*/
+    /*========= Horizontal Rule styling used inspired by https://css-tricks.com/examples/hrs/ =======*/
 }
 
-/* ===============================Buttons============================================ */
+/* =============================== Buttons ============================================ */
 .btn {
     color: #fff;
     background-color: #159da0;
@@ -103,7 +103,7 @@ nav {
     color: white;
 }
 
-/* ===============================Headers============================================ */
+/* =============================== Headers ============================================ */
 
 .main-headers {
     color: #00ffe7;
@@ -119,14 +119,14 @@ nav {
     margin: 40px 0px 40px 0px;
 }
 
-/* ===============================about section====================================== */
+/* =============================== About Section ====================================== */
 
-.about-info{
+.about-info {
     margin-left: 20%;
     margin-right: 20%;
 }
 
-/* ===============================Classes cards====================================== */
+/* =============================== Classes Cards ====================================== */
 
 .card-body {
     background-color: #212525;
@@ -135,22 +135,23 @@ nav {
 }
 
 .btn-classes {
-  margin-top: auto;
+    margin-top: auto;
 }
 
 .card-classes {
     background-color: #212525;
     min-height: 496px;
     margin-top: 5px;
-    width: 95%;
+    width: 100%;
 }
 
 .carousel-container {
-    max-width: 700px;
+    background-color: #212525;
+    max-width: 1000px;
     margin: auto;
 }
 
-/* ===============================membership section================================= */
+/* =============================== Membership Section================================= */
 
 .membership-month-outer {
     padding-right: 0px;
@@ -178,18 +179,17 @@ nav {
     margin-top: 30px;
 }
 
-/* ===============================Footer============================================= */
+/* =============================== Footer ============================================= */
 
 footer div {
     width: 100%;
 }
 
 .footer-logo {
-    width:50px;
-    height: 50px;
+    width: 80%;
 }
 
-/* ===============================Media Queries====================================== */
+/* =============================== Media Queries ====================================== */
 
 @media screen and (max-width: 500px) {
     .main-headers {
@@ -199,28 +199,28 @@ footer div {
     }
 
     .sub-headers {
-    font-weight: 600;
-    font-size: 25px;
+        font-weight: 600;
+        font-size: 25px;
     }
     .membership-month-outer {
-    padding: 0;
-    max-width: 95%
+        padding: 0;
+        max-width: 95%;
     }
 
-.membership-month-inner {
-    margin: 0;
+    .membership-month-inner {
+        margin: 0;
     }
 
-.membership-year-outer {
-    padding: 0;
-    max-width: 95%
+    .membership-year-outer {
+        padding: 0;
+        max-width: 95%;
     }
 
-.membership-year-inner {
-    margin: 0;
+    .membership-year-inner {
+        margin: 0;
     }
 
-.membership-row {
-    margin-left: 0;
-}
+    .membership-row {
+        margin-left: 0;
+    }
 }

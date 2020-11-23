@@ -1,13 +1,15 @@
 body {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     font-family: "Open Sans", sans-serif;
     background-color: rgb(41 49 48);
     color: white;
     text-align: center;
+    overflow-x: hidden;
 }
 
 /* =============================== Nav Section =============================== */
-
 nav {
     height: 55px;
     background-color: #212525;
@@ -192,13 +194,26 @@ footer div {
     width: 80%;
 }
 
-.membership-container {
-    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.social-links {
+    padding-bottom: 15px;
 }
+
+.social-links li a i {
+    /*width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;*/
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #159da0;
+    background: #212525;
+}
+
+.social-links li a i:hover {
+    color: #00ffe7;
+}
+
 
 /* =============================== Media Queries ====================================== */
 

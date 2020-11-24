@@ -190,8 +190,22 @@ nav {
 
 /* =============================== Footer ============================================= */
 
+footer {
+    background-color: #212525;
+    margin-top: 15px;
+}
+
 footer div {
     width: 100%;
+    margin: auto;
+}
+
+.address-box {
+    margin: auto;
+}
+
+summary:focus {
+    outline: none;
 }
 
 .footer-logo {
@@ -202,13 +216,12 @@ footer div {
     padding-bottom: 15px;
 }
 
+.social-links ul {
+    padding-left: 0;
+}
+
 .social-links li a i {
-    /*width: 32px;
-    height: 32px;
-    padding: 12px;
-    border-radius: 50%;*/
-    font-size: 30px;
-    line-height: 7px;
+    font-size: 50px;
     text-align: center;
     color: #159da0;
     background: #212525;
@@ -254,6 +267,14 @@ footer div {
         margin-left: 0;
     }
 }
+
+
+@media screen and (max-width: 925px) {
+    .social-links li a i {
+        font-size: 24px;
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
     .card-classes {

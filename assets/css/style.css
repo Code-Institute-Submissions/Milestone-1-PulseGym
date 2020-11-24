@@ -1,12 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
     font-family: "Open Sans", sans-serif;
     background-color: rgb(41 49 48);
     color: white;
     text-align: center;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 /* =============================== Nav Section =============================== */

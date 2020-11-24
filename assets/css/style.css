@@ -6,7 +6,6 @@ body {
     background-color: rgb(41 49 48);
     color: white;
     text-align: center;
-    /*overflow-x: hidden;*/
 }
 
 /* =============================== Nav Section =============================== */
@@ -82,7 +81,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .block-divider {
@@ -260,6 +259,7 @@ summary:focus {
     .navbar {
         padding-top: 0;
     }
+
     .main-headers {
         font-weight: 600;
         font-size: 30px;

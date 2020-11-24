@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     background-color: rgb(41 49 48);
     color: white;
     text-align: center;
@@ -12,6 +13,10 @@ body {
 nav {
     height: 55px;
     background-color: #212525;
+}
+
+.navbar-brand img {
+    vertical-align: baseline;
 }
 
 .nav-link {
@@ -30,6 +35,7 @@ nav {
 .nav-text-align {
     text-align: end;
 }
+
 
 .navbar-toggler-icon i {
     color:#159da0;
@@ -198,10 +204,25 @@ footer {
 footer div {
     width: 100%;
     margin: auto;
+    padding-left: 15px;
+}
+
+
+details {
+    margin: auto;
+    width: 250px;
+    padding-right: 0;
+}
+
+.address-box {
+    font-size: smaller;
 }
 
 .address-box {
     margin: auto;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 15%;
 }
 
 summary:focus {
@@ -214,6 +235,7 @@ summary:focus {
 
 .social-links {
     padding-bottom: 15px;
+    padding-right: 0;
 }
 
 .social-links ul {
@@ -235,6 +257,9 @@ summary:focus {
 /* =============================== Media Queries ====================================== */
 
 @media screen and (max-width: 500px) {
+    .navbar {
+        padding-top: 0;
+    }
     .main-headers {
         font-weight: 600;
         font-size: 30px;

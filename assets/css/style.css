@@ -31,6 +31,11 @@ nav {
     text-align: end;
 }
 
+.navbar-toggler-icon i {
+    color:#159da0;
+    font-size:25px;
+}
+
 /* =============================== Callout/Home Section =============================== */
 
 .callout-container {
@@ -247,5 +252,11 @@ footer div {
 
     .membership-row {
         margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-classes {
+        min-height: 520px;
     }
 }

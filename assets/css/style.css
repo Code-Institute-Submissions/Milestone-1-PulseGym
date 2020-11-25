@@ -24,21 +24,20 @@ nav {
     margin-bottom: 2px;
     margin-top: 6px;
     line-height: 5px;
-    color: #00ffe7;
+    color: #159da0;
 }
 
 .nav-link:hover {
-    color: #159da0;
+    color: #00ffe7;
 }
 
 .nav-text-align {
     text-align: end;
 }
 
-
 .navbar-toggler-icon i {
-    color:#159da0;
-    font-size:25px;
+    color: #159da0;
+    font-size: 25px;
 }
 
 /* =============================== Callout/Home Section =============================== */
@@ -106,7 +105,6 @@ nav {
     width: 140px;
     color: white;
     background-color: #159da0;
-    /*border-color: rgb(0, 0, 0);*/
 }
 
 .btn-call:hover,
@@ -138,6 +136,19 @@ nav {
 .about-info {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.footer-link {
+    margin-top: 40px;
+}
+
+.footer-link a {
+    color: #159da0;
+}
+
+.footer-link a:hover {
+    color: #00ffe7;
+    text-decoration: none;
 }
 
 /* =============================== Classes Cards ====================================== */
@@ -187,11 +198,31 @@ nav {
     background-color: #212525;
 }
 
+.card-title {
+    color: #159da0;
+}
+
+.card-subtitle {
+    color: #00ffe7;
+}
+
 .form-body {
     background-color: #212525;
     padding: 1.5rem;
     margin-top: 30px;
 }
+/* =============================== Testimonials ======================================= */
+
+
+
+.carousel-arrows {
+    color: #159da0;
+}
+
+.carousel-arrows:hover {
+    color: #00ffe7;
+}
+
 
 /* =============================== Footer ============================================= */
 
@@ -206,7 +237,6 @@ footer div {
     padding-left: 15px;
 }
 
-
 details {
     margin: auto;
     width: 250px;
@@ -214,14 +244,11 @@ details {
 }
 
 .address-box {
-    font-size: smaller;
-}
-
-.address-box {
     margin: auto;
-    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
     text-align: left;
     padding-left: 15%;
+    font-size: 25px;
 }
 
 summary:focus {
@@ -254,6 +281,28 @@ summary:focus {
 
 
 /* =============================== Media Queries ====================================== */
+
+@media screen and (min-width: 1200px) {
+    .card-classes {
+        min-height: 520px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .address-box {
+    font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .social-links li a i {
+        font-size: 24px;
+    }
+    .address-box {
+    font-size: 16px;
+    }
+}
+
 
 @media screen and (max-width: 500px) {
     .navbar {
@@ -290,19 +339,5 @@ summary:focus {
 
     .membership-row {
         margin-left: 0;
-    }
-}
-
-
-@media screen and (max-width: 925px) {
-    .social-links li a i {
-        font-size: 24px;
-    }
-}
-
-
-@media screen and (min-width: 1200px) {
-    .card-classes {
-        min-height: 520px;
     }
 }

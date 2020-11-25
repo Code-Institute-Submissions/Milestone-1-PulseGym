@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <title>Pulse Gym</title>
     </head>
@@ -13,10 +14,10 @@
         <!--Navbar toggler inspired by code institute whiskeydrop lesson-->
         <nav class="navbar navbar-expand-md fixed-top container-fluid">
             <a class="navbar-brand" href="#home">
-                <img src="assets/images/PulseCyanWhiteLarge.png" width="50" height="50" alt="Pulse Logo"/>
+                <img src="assets/images/PulseCyanWhiteLarge.png" width="50" height="50" alt="Pulse Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">   
+                <span class="navbar-toggler-icon">
                     <i class="fas fa-bars"></i>
                 </span>
             </button>
@@ -50,7 +51,7 @@
                         <h1 class="jumbotron-header">For all of your fitness needs.</h1>
                         <hr class="block-divider" />
                         <p class="jumbotron-lead">Keep your finger on the pulse and join our Gym today!</p>
-                        <a  href="#membership"><button class="btn btn-lg btn-call">Join!</button></a>
+                        <a href="#membership" class="btn btn-lg btn-call">Join!</a>
                     </section>
                 </div>
             </div>
@@ -68,6 +69,9 @@
                         At Pulse Gym, you'll find everything you need for a great workout. From quality gym equipment and low cost flexible memberships, to great regular excersie and weight training classes, there are lots of reasons why
                         you should join Pulse Gym <strong>today!</strong>.
                     </p>
+                    <p class="footer-link">
+                        For our location and links to all of our social media just click <a href="#footer"><strong>HERE</strong></a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -81,8 +85,8 @@
                 </div>
             </div>
         </div>
-            <!--================================================ Cardio  ====================================================-->
-        <div class="container">    
+        <!--================================================ Cardio  ====================================================-->
+        <div class="container">
             <div class="row">
                 <div class="col-12 my-3">
                     <h3 class="sub-headers"><i class="fas fa-heartbeat"></i> Cardio</h3>
@@ -217,12 +221,12 @@
                 </div>
             </div>
         </div>
-        <!--carousel side by side fix inspired by "Zim" @ Stackoverflow https://stackoverflow.com/questions/62572072/bootstrap-4-carousel-text-left-image-right-->
+        <!--carousel side by side fix inspired by "Zim" @ Stackoverflow https://stackoverflow.com/questions/62572072/bootstrap-4-carousel-text-left-image-right -->
         <div class="container-fluid py-2">
             <div class="row align-items-center carousel-container">
                 <div class="col-auto">
-                    <a class="h1" href="#carousel-controls" role="button" data-slide="prev">
-                        <span>&lt;</span>
+                    <a class="h1 carousel-arrows" href="#carousel-controls" role="button" data-slide="prev">
+                        <i class="fas fa-arrow-circle-left"></i>
                     </a>
                 </div>
                 <div class="col">
@@ -284,8 +288,8 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <a class="h1" href="#carousel-controls" role="button" data-slide="next">
-                        <span>&gt;</span>
+                    <a class="h1 carousel-arrows" href="#carousel-controls" role="button" data-slide="next">
+                        <i class="fas fa-arrow-circle-right"></i>
                     </a>
                 </div>
             </div>
@@ -306,7 +310,7 @@
                     <div class="card membership-month-inner">
                         <div class="card-body">
                             <h5 class="card-title">Monthly Membership</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">€29.99</h6>
+                            <h6 class="card-subtitle mt-1 mb-2">€29.99</h6>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item member-item">Unlimited Access</li>
@@ -319,7 +323,7 @@
                     <div class="card membership-year-inner">
                         <div class="card-body">
                             <h5 class="card-title">Yearly Membership</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">€299</h6>
+                            <h6 class="card-subtitle mt-1 mb-2">€299</h6>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item member-item">Unlimited Access</li>
@@ -359,7 +363,7 @@
         </div>
         <!--================================================ Membership End ===============================================-->
         <!--================================================ Footer =======================================================-->
-        <footer>
+        <footer id="footer">
             <div class="row">
                 <div class="col-12 d-block d-sm-none">
                     <details>
@@ -379,41 +383,41 @@
                     </address>
                 </div>
                 <div class="col-12 col-sm-4">
-                    <img class="footer-logo" src="assets/images/PulseCyanWhiteLarge.png" alt="Pulse Gym Logo">
+                    <img class="footer-logo" src="assets/images/PulseCyanWhiteLarge.png" alt="Pulse Gym Logo" />
                 </div>
                 <div class="col-12 col-sm-4 social-links">
                     <h5>Stay Connected</h5>
                     <ul>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://facebook.com/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.pinterest.com/">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://facebook.com/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.pinterest.com/">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

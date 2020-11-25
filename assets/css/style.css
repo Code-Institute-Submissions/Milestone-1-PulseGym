@@ -180,10 +180,12 @@ nav {
 
 .membership-month-outer {
     padding-right: 0px;
+    
 }
 
 .membership-month-inner {
     margin-left: auto;
+    background-color: #00ffe7;
 }
 
 .membership-year-outer {
@@ -192,6 +194,7 @@ nav {
 
 .membership-year-inner {
     margin-right: auto;
+    background-color: #00ffe7;
 }
 
 .member-item {
@@ -295,6 +298,11 @@ summary:focus {
 }
 
 @media screen and (max-width: 925px) {
+
+    .carousel-container {
+        min-height: 398px;
+    }
+
     .social-links li a i {
         font-size: 24px;
     }
@@ -319,6 +327,19 @@ summary:focus {
         font-weight: 600;
         font-size: 25px;
     }
+
+    .carousel-container {
+        min-height: 400px;
+    }
+
+    .blockquote {
+        font-size: 16px;
+    }
+
+    .carousel-arrows {
+        font-size: 25px;
+    }
+
     .membership-month-outer {
         padding: 0;
         max-width: 95%;

@@ -213,9 +213,12 @@ All of the folloing technologies were used to create this website:-
     
 #### *Issues Found*
 
-*   An issue was found with the carousel on mobile devices, The resizing would make the right hand button drop below the rest of the carousel.
+*   I had a non-website issue during this poject. This is the second repository of this project as I have been frozen out of the original repository by a GitHub bug.
+    *   The issue was only solved by transfering all possible data to a second repository.
 
+*   An issue was found with the carousel on mobile devices, The resizing would make the right hand button drop below the rest of the carousel.
     *   The issue was resolved with some changes to button and text sizes
+
 *   The address text in the footer would show flex to too many lines on smaller devices
     *   The issue was fix with a design change rather than a bug fix, the address now moves to a dropdown list on smaller devices
 

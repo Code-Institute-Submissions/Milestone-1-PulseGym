@@ -57,8 +57,13 @@ Bootstrap and jQuery have both been used to form the structural layout of this w
 Throughout the website Open Sans is used in various forms
 
 #### *Colors*
-There are four non-image colors used on the website:
+* There are Five non-image colors used on the website:
     <!--colors here-->
+    *   <span style="color:#00ffe7">#00ffe7</span> has been used for the Headers and Highlights
+    *   <span style="color:#159da0">#159da0</span> has been used for the Headers and Nav
+    *   <span style="color:#212525">#212525</span> has been used for the Section Backgrounds
+    *   <span style="color:#293130">#293130</span> has been used for the Main Background
+    *   <span style="color:#fff">#fff</span> Or white has been used for the Main Text
 
 #### *Icons*
 All icons that appear on this page are sourced from [FontAwesome](https://fontawesome.com/)
@@ -229,7 +234,7 @@ All of the folloing technologies were used to create this website:-
 ---
 
 ### **Remote Deployment**
-1. Navigate to the GitHub [Repository:]( <!--GitHub address--> )
+1. Navigate to the GitHub [Repository:](https://github.com/RyanSyme/Milestone-1-PulseGym)
 2. Click the **Settings** Tab.
 3. Scroll Down to the **Git Hub Pages** Heading.
 4. Select **Master Branch** as the source.
@@ -237,7 +242,7 @@ All of the folloing technologies were used to create this website:-
 6. Click on the link to go to the live deployed page.
 
 ### **Local Deployment**
-1. Navigate to the GitHub [Repository:]( <!--GitHub address--> )
+1. Navigate to the GitHub [Repository:](https://github.com/RyanSyme/Milestone-1-PulseGym)
 2. Click the **Code** drop down menu.
 3. Download the ZIP file and unpackage locally
 4. Open a code editor of your choice and open the unziped file using the code editor.

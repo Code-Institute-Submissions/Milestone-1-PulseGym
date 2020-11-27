@@ -46,9 +46,6 @@ nav {
     height: 90vh;
     background: url(../images/gym-main.jpg) no-repeat bottom right fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 
     display: flex;
     align-items: center;
@@ -96,7 +93,6 @@ nav {
 .btn {
     color: #fff;
     background-color: #159da0;
-    border-color: #159da0;
 }
 
 .btn-call {

@@ -3,7 +3,8 @@
 ## **Gym website**
 
 ---
-<!--Images Here-->
+
+![PulseGym](Documentation/Pusle-Gym-Multi-Device-Mockup.png)
 I have created this webpage to showcase the skills I have learned over the first section of the Code Institute Full Stack Web Developer course; this is the first of four projects that I will be creating for the course.
 For this project I have chosen to create a web page for a ficticous Gym.
 The reason for this selection is that it will allow me to show my abilities to create a static webpage for a commercial entity using html, css and UX design techniques.
@@ -58,12 +59,13 @@ Throughout the website Open Sans is used in various forms
 
 #### *Colors*
 * There are Five non-image colors used on the website:
-    <!--colors here-->
-    *   <span style="color:#00ffe7">#00ffe7</span> has been used for the Headers and Highlights
-    *   <span style="color:#159da0">#159da0</span> has been used for the Headers and Nav
-    *   <span style="color:#212525">#212525</span> has been used for the Section Backgrounds
-    *   <span style="color:#293130">#293130</span> has been used for the Main Background
-    *   <span style="color:#fff">#fff</span> Or white has been used for the Main Text
+
+    ![Colors](Documentation/ColorPalette-Coolors.png)
+    *   #00ffe7 has been used for the Headers and Highlights
+    *   #159da0 has been used for the Headers and Nav
+    *   #ffffff has been used for the Main Text
+    *   #293130 has been used for the Main Background
+    *   #212525 has been used for the Section Backgrounds
 
 #### *Icons*
 All icons that appear on this page are sourced from [FontAwesome](https://fontawesome.com/)
@@ -94,12 +96,22 @@ All icons that appear on this page are sourced from [FontAwesome](https://fontaw
 * The Project is a one-page website with five main sections and a footer.
 
     1. The website has a home section that has a jumbotron with an image background and callout text. Within the jumbotron is a join button which navigates to the Membership section.
-
-    2. The second section is a short About Us section which advertises why people should join the gym, it also has a link to the footer where you can access the address and social links
+    ![Home section](Documentation/Pusle.Gym.callout.screenshot.png)    
+    
+    2. The second section is a short About Us section which advertises why people should join the gym, it also has a link to the footer where you can access the address and social links.
+    ![About Section](Documentation/Pusle.Gym.about.screenshot.png)
+    
     3. The third section is the largest section, the Fitness Classes section. The section is divided into three sub-sections and has cards describing each class. Each class has its own button to book a class.
+    ![Classes Section](Documentation/Pusle.Gym.classes.screenshot.png)
+    
     4. The next section is the Testimonials section. The testimonials are displayed on a bootstrap carousel and each testimonial has an image of the person giving the testimonial.
+    ![Testimonials Section](Documentation/Pusle.Gym.testimonials.screenshot.png)
+    
     5. The last main section is the Membership section. The section has two parts, a card describing the membership options and a sign up form offering membership.
+    ![Membership Section](Documentation/Pusle.Gym.membership.screenshot.png)
+    
     6. At the bottom is a footer. The footer has three columns. The first column holds the address, the middle column displays the company logo and The last column has social media icons.
+    ![Footer Section](Documentation/Pusle.Gym.footer.screenshot.png)
 
 ### **Existing Features**
 
@@ -143,6 +155,9 @@ All of the folloing technologies were used to create this website:-
 *	[GitHub]( https://github.com/) was used to host the website
 *	[Gitpod]( https://www.gitpod.io/) was used to code the website
 *	[Balsamiq]( https://balsamiq.com/) was used to create the wireframes of the project
+*   [FireShot](https://getfireshot.com/) was used to create the screenshots for the README
+*   [Techsini](https://techsini.com/multi-mockup/) was used to style the multi screen mockup
+*   [Coolors](https://coolors.co/) was used to create the color palette screenshot
 
 ---
 
@@ -160,6 +175,7 @@ All of the folloing technologies were used to create this website:-
     *	Each section is clearly marked with a main header and all sub-sections are clearly labelled
     *	The home section has a join button which directs the customer to the membership section where they can sign up or send a question to the company
     *	Each fitness class has its own bookings button and each class is labelled with the time and day of the class
+
 * *As a First Time Visitor*, I want to access the site across all devices.
     *	The website is responsive across all devices
     *	The website has three different layouts depending on what size screen the customer is using
@@ -192,11 +208,14 @@ All of the folloing technologies were used to create this website:-
 ### **Code Validation**
 
 #### *W3 Validators*
-*    The HTML was Validted at [W3C Markup Validation Service](https://validator.w3.org/). 
-<!--![HTML-Code-Validation]( screen shot ) -->
 
-   *    The CSS was validate at [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/). 
-<!--![CSS-Code-Validation]( screen shot ) -->
+*    The HTML was Validted at [W3C Markup Validation Service](https://validator.w3.org/). 
+
+![HTML Validation](Documentation/Pusle.Gym.validator.w3.org.png)
+
+   *    The CSS was validate at [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/).
+
+![CSS Validation](Documentation/Pusle.Gym.jigsaw.w3.org.png)
 
 ### **Manual Testing**
 

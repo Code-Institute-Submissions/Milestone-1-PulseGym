@@ -44,7 +44,7 @@ nav {
 
 .callout-container {
     height: 90vh;
-    background: url(../images/dumbbells-main.jpg) no-repeat bottom right fixed;
+    background: url(../images/gym-1677220_1280.jpg) no-repeat bottom right fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -80,7 +80,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .block-divider {
@@ -287,6 +287,12 @@ summary:focus {
 @media screen and (min-width: 1200px) {
     .card-classes {
         min-height: 592px;
+    }
+}
+
+@media screen and (min-width: 1010px) {
+    .card-classes .card-body {
+        min-height: 334px;
     }
 }
 

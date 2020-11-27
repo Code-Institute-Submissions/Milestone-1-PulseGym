@@ -199,7 +199,7 @@ nav {
 }
 
 .card-title {
-    color: #159da0;
+    color: #159da0!important;
 }
 
 .card-subtitle {
@@ -286,7 +286,7 @@ summary:focus {
 
 @media screen and (min-width: 1200px) {
     .card-classes {
-        min-height: 520px;
+        min-height: 592px;
     }
 }
 

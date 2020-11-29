@@ -50,6 +50,9 @@ The website is simple to navigate and uses a single page style making navigation
 
 ### **Wireframes**
 <!--Wireframes here with small paragraph-->
+![Wireframes](Documentation/PulseGym%20WireframeScreenshot.png)
+
+you can find a full size PDF of the Wireframes [here](Documentation/PulseGym%20Wireframe.pdf)
 ### **styling**
 #### *Framework*
 Bootstrap and jQuery have both been used to form the structural layout of this website.

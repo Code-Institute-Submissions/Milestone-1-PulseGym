@@ -49,7 +49,6 @@ nav {
 
 .navbar button:focus {
     outline: none;
-    outline: none -webkit-focus-ring-color;
 }
 
 /* =============================== Callout/Home Section =============================== */

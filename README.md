@@ -53,6 +53,15 @@ The website is simple to navigate and uses a single page style making navigation
 ![Wireframes](Documentation/PulseGym%20WireframeScreenshot.png)
 
 you can find a full size PDF of the Wireframes [here](Documentation/PulseGym%20Wireframe.pdf)
+
+#### **Design Dfferences**
+
+There are some minor differences from the original conception and the final website.
+* I orignally only planned for two different screen size layouts but added an extra layout for tablets as neither of the layouts I had worked quite right on tablets.
+* I also added buttons to each class rather than having a single button for all classes to make navigation easier for customers.
+* The membership section was originally going to have an image background, but once it was implemented, I felt that a cleaner simpler background worked better.
+* Originally I had the membership section above the testimonies section, this was changed to give the layout a more methodical feel.
+
 ### **styling**
 #### *Framework*
 Bootstrap and jQuery have both been used to form the structural layout of this website.
@@ -240,7 +249,7 @@ All of the folloing technologies were used to create this website:-
    *    Opera
    *    Firefox
    *    Apple Safari
-   *    Microsoft Exporer
+   *    Microsoft Explorer
    *    Microsoft Edge
     
 #### *Testing On Operating Systems*
@@ -279,7 +288,7 @@ All of the folloing technologies were used to create this website:-
 ### **Local Deployment**
 1. Navigate to the GitHub [Repository:](https://github.com/RyanSyme/Milestone-1-PulseGym)
 2. Click the **Code** drop down menu.
-3. Download the ZIP file and unpackage locally
+3. Download the ZIP file and unpack locally
 4. Open a code editor of your choice and open the unziped file using the code editor.
 5. Click **Save** and save to your local device
 
@@ -327,3 +336,5 @@ All of the folloing technologies were used to create this website:-
 
     *   [CSS-Tricks.com](https://css-tricks.com) 
     *	**“Zim”** from [StackOverflow]( https://stackoverflow.com/questions/62572072/bootstrap-4-carousel-text-left-image-right) 
+
+*   Additional Thanks to my mentor **Oluwafemi Medale** for styling and formatting advice

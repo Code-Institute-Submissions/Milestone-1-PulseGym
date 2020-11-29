@@ -40,6 +40,18 @@ nav {
     font-size: 25px;
 }
 
+#navbarNavDropdown {
+    background-color: #212525;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: -13px;
+}
+
+.navbar button:focus {
+    outline: none;
+    outline: none -webkit-focus-ring-color;
+}
+
 /* =============================== Callout/Home Section =============================== */
 
 .callout-container {

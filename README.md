@@ -158,6 +158,7 @@ All of the folloing technologies were used to create this website:-
 *   [FireShot](https://getfireshot.com/) was used to create the screenshots for the README
 *   [Techsini](https://techsini.com/multi-mockup/) was used to style the multi screen mockup
 *   [Coolors](https://coolors.co/) was used to create the color palette screenshot
+*   [User-Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) was used for testing fuctionality on different browers
 
 ---
 
@@ -221,19 +222,31 @@ All of the folloing technologies were used to create this website:-
 
 #### *Google Developer Tools*
 
-   *    The websites design responsiveness has been tested on all device sizes using Google Developer Tools.  
+   *    The websites design responsiveness has been tested on all device sizes using Google Developer Tools.
+
+#### *Testing On Mobile Devices*
+   *    Apple iOS
+   *    Google Android 7
+   *    Microsoft Windows Phone
+   *    Samsung Tizen OS
+   *    Nokia Symbian
+   *    Mozilla Firefox OS
  
-#### *Testing On Different Browsers*
+#### *Testing On Browsers*
    *    Google Chrome
+   *    Opera
    *    Firefox
-   *    Maybe a browers site
+   *    Apple Safari
+   *    Microsoft Exporer
+   *    Microsoft Edge
     
-#### *Testing Responsiveness On Different Devices*
-   *    Acer Aspire E 17
-   *    Samsung S10
-   *    Samsung S8
-   *    Samsung S6
-   *    iPhone 11
+#### *Testing On Operating Systems*
+   *    Microsoft Windows
+   *    Linux
+   *    Apple Mac OS
+   *    Google Chrome OS
+   *    IBM Warp
+
     
 #### *Issues Found*
 
@@ -243,7 +256,7 @@ All of the folloing technologies were used to create this website:-
 *   An issue was found with the carousel on mobile devices, The resizing would make the right hand button drop below the rest of the carousel.
     *   The issue was resolved with some changes to button and text sizes
 
-*   The address text in the footer would show flex to too many lines on smaller devices
+*   The address text in the footer would show on too many lines on smaller devices
     *   The issue was fix with a design change rather than a bug fix, the address now moves to a dropdown list on smaller devices
 
 ---

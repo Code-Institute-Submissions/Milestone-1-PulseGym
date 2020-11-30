@@ -4,7 +4,7 @@
 
 ---
 
-![PulseGym](Documentation/Pusle-Gym-Multi-Device-Mockup.png)
+![PulseGym](assets/readme-files/Pusle-Gym-Multi-Device-Mockup.png)
 I have created this webpage to showcase the skills I have learned over the first section of the Code Institute Full Stack Web Developer course; this is the first of four projects that I will be creating for the course.
 For this project I have chosen to create a web page for a ficticous Gym.
 The reason for this selection is that it will allow me to show my abilities to create a static webpage for a commercial entity using html, css and UX design techniques.
@@ -38,7 +38,7 @@ The reason for this selection is that it will allow me to show my abilities to c
 ---
 
 ## **UX**
----
+
 
 ### **The Focus**
 
@@ -50,9 +50,9 @@ The website is simple to navigate and uses a single page style making navigation
 
 ### **Wireframes**
 <!--Wireframes here with small paragraph-->
-![Wireframes](Documentation/PulseGym%20WireframeScreenshot.png)
+![Wireframes](assets/readme-files/PulseGym%20WireframeScreenshot.png)
 
-you can find a full size PDF of the Wireframes [here](Documentation/PulseGym%20Wireframe.pdf)
+you can find a full size PDF of the Wireframes [here](assets/readme-files/PulseGym%20Wireframe.pdf)
 
 #### **Design Differences**
 
@@ -63,6 +63,7 @@ There are some minor differences from the original conception and the final webs
 * Originally I had the membership section above the testimonies section, this was changed to give the layout a more methodical feel.
 
 ### **styling**
+
 #### *Framework*
 Bootstrap and jQuery have both been used to form the structural layout of this website.
 
@@ -72,7 +73,7 @@ Throughout the website Open Sans is used in various forms
 #### *Colors*
 * There are Five non-image colors used on the website:
 
-    ![Colors](Documentation/ColorPalette-Coolors.png)
+    ![Colors](assets/readme-files/ColorPalette-Coolors.png)
     *   #00ffe7 has been used for the Headers and Highlights
     *   #159da0 has been used for the Headers and Nav
     *   #ffffff has been used for the Main Text
@@ -103,27 +104,25 @@ All icons that appear on this page are sourced from [FontAwesome](https://fontaw
 
 ## **Features**
 
----
-
 * The Project is a one-page website with five main sections and a footer.
 
     1. The website has a home section that has a jumbotron with an image background and callout text. Within the jumbotron is a join button which navigates to the Membership section.
-    ![Home section](Documentation/Pusle.Gym.callout.screenshot.png)    
+    ![Home section](assets/readme-files/Pusle.Gym.callout.screenshot.png)    
     
     2. The second section is a short About Us section which advertises why people should join the gym, it also has a link to the footer where you can access the address and social links.
-    ![About Section](Documentation/Pusle.Gym.about.screenshot.png)
+    ![About Section](assets/readme-files/Pusle.Gym.about.screenshot.png)
     
     3. The third section is the largest section, the Fitness Classes section. The section is divided into three sub-sections and has cards describing each class. Each class has its own button to book a class.
-    ![Classes Section](Documentation/Pusle.Gym.classes.screenshot.png)
+    ![Classes Section](assets/readme-files/Pusle.Gym.classes.screenshot.png)
     
     4. The next section is the Testimonials section. The testimonials are displayed on a bootstrap carousel and each testimonial has an image of the person giving the testimonial.
-    ![Testimonials Section](Documentation/Pusle.Gym.testimonials.screenshot.png)
+    ![Testimonials Section](assets/readme-files/Pusle.Gym.testimonials.screenshot.png)
     
     5. The last main section is the Membership section. The section has two parts, a card describing the membership options and a sign up form offering membership.
-    ![Membership Section](Documentation/Pusle.Gym.membership.screenshot.png)
+    ![Membership Section](assets/readme-files/Pusle.Gym.membership.screenshot.png)
     
     6. At the bottom is a footer. The footer has three columns. The first column holds the address, the middle column displays the company logo and The last column has social media icons.
-    ![Footer Section](Documentation/Pusle.Gym.footer.screenshot.png)
+    ![Footer Section](assets/readme-files/Pusle.Gym.footer.screenshot.png)
 
 ### **Existing Features**
 
@@ -143,17 +142,16 @@ All icons that appear on this page are sourced from [FontAwesome](https://fontaw
 
 ### **Features Left to Implement**
 
-* Personal Training Session options.
+* The 'Bookings' buttons do not function as this was not part of the remit. A bookings section may be added at a later stage
 
 * A multi-functional bookings interface
+* Personal Training Session options.
 * An active payment section
 * An area for selling health products/gym equipment
 
 ---
 
 ## **Technologies Used**
-
----
 
 All of the folloing technologies were used to create this website:-
 
@@ -175,8 +173,6 @@ All of the folloing technologies were used to create this website:-
 ---
 
 ## **Testing**
-
----
 
 ### **Testing User Stories from the UX Section**
 
@@ -224,11 +220,11 @@ All of the folloing technologies were used to create this website:-
 
 *    The HTML was Validted at [W3C Markup Validation Service](https://validator.w3.org/). 
 
-![HTML Validation](Documentation/Pusle.Gym.validator.w3.org.png)
+![HTML Validation](assets/readme-files/Pusle.Gym.validator.w3.org.png)
 
    *    The CSS was validate at [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/).
 
-![CSS Validation](Documentation/Pusle.Gym.jigsaw.w3.org.png)
+![CSS Validation](assets/readme-files/Pusle.Gym.jigsaw.w3.org.png)
 
 ### **Manual Testing**
 
@@ -275,8 +271,6 @@ All of the folloing technologies were used to create this website:-
 
 ## **Deployment**
 
----
-
 ### **Remote Deployment**
 1. Navigate to the GitHub [Repository:](https://github.com/RyanSyme/Milestone-1-PulseGym)
 2. Click the **Settings** Tab.
@@ -295,8 +289,6 @@ All of the folloing technologies were used to create this website:-
 ---
 
 ## **Credits**
-
----
 
 ### **Content**
 *	Layout styling was inspired by the Whiskey Drop tutorial at [Code Institute](https://codeinstitute.net/) 

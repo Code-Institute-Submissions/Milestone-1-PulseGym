@@ -54,7 +54,7 @@ The website is simple to navigate and uses a single page style making navigation
 
 you can find a full size PDF of the Wireframes [here](Documentation/PulseGym%20Wireframe.pdf)
 
-#### **Design Dfferences**
+#### **Design Differences**
 
 There are some minor differences from the original conception and the final website.
 * I orignally only planned for two different screen size layouts but added an extra layout for tablets as neither of the layouts I had worked quite right on tablets.

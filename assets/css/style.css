@@ -1,10 +1,4 @@
-/*@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
-}*/
-
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital,wght@0,400;1,700&display=swap');*/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;700&display=swap');
 
 body {
     margin: 0;
@@ -277,7 +271,6 @@ summary:focus {
 
 .social-links {
     padding-bottom: 15px;
-    padding-right: 0;
 }
 
 .social-links ul {
@@ -380,5 +373,5 @@ summary:focus {
 
     #navbarNavDropdown {
     margin-top: -13px;
-}
+    }
 }

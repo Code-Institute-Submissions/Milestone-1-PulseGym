@@ -44,7 +44,6 @@ nav {
     background-color: #212525;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    margin-top: -13px;
 }
 
 .navbar button:focus {
@@ -371,4 +370,8 @@ summary:focus {
     .membership-row {
         margin-left: 0;
     }
+
+    #navbarNavDropdown {
+    margin-top: -13px;
+}
 }

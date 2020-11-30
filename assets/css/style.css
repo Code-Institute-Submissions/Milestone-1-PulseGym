@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -255,8 +257,7 @@ details {
 .address-box {
     margin: auto;
     font-family: "Open Sans Condensed", sans-serif;
-    text-align: left;
-    padding-left: 15%;
+    padding-top: 5%;
     font-size: 25px;
 }
 
@@ -270,7 +271,6 @@ summary:focus {
 
 .social-links {
     padding-bottom: 15px;
-    padding-right: 0;
 }
 
 .social-links ul {
